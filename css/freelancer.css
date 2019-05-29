@@ -357,7 +357,7 @@ a:focus, a:hover, a:active {
 
 
 .parallax {
-    background: linear-gradient(0deg, rgba(98,0,238,0.4), rgba(98,0,238,0.4)), url("/img/foto2.jpg");
+    background: linear-gradient(0deg, rgba(98,0,238,0.4), rgba(98,0,238,0.4)), url('../img/foto2.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
