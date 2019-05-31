@@ -146,13 +146,13 @@ section h2 {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
-    font-size: 2em;
+    font-size: 3.5em;
     -webkit-transition: font-size 0.3s;
     transition: font-size 0.3s;
   }
@@ -168,11 +168,11 @@ section h2 {
     background: #6200EE;
   }
   #mainNav.navbar-shrink {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
 }
 
@@ -357,7 +357,7 @@ a:focus, a:hover, a:active {
 
 
 .parallax {
-    background: linear-gradient(0deg, rgba(98,0,238,0.4), rgba(98,0,238,0.4)), url("/img/foto2.jpg");
+    background: linear-gradient(0deg, rgba(98,0,238,0.4), rgba(98,0,238,0.4)), url('../img/foto2.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -446,6 +446,7 @@ width: 100%;
 -o-transform:  rotateY(180deg);
 margin:0;
 padding: 0;
+font-size:160px;
 }
 
 .letravirada2{
