@@ -432,7 +432,7 @@ font-size:160px;
 
 .fotoequipe{
   border-radius: 30px;
-  display: flex;
+  display: inline-block;
   flex: 0 0 150px;
   height: 150px;
   justify-content: center;
@@ -440,6 +440,7 @@ font-size:160px;
   position: relative;
   width: 150px;
   border:1px solid #fff;
+  margin-bottom: 10px;
 
 }
 
@@ -456,23 +457,13 @@ font-size:160px;
   top: 0;
   transition: opacity 0.5s;
   z-index: 1;
+
 }
 
 .fotoequipe_overlay:hover{
   opacity: 1;
 }
 
-.nomeequipe{
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 
 .overlay {
   position: absolute;
@@ -486,3 +477,4 @@ font-size:160px;
   transition: .5s ease;
   background-color: #008CBA;
 }
+
